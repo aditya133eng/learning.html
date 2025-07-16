@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+.mynav{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mynav .logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.mynav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin-right: 20px;
+}
+.mynav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
