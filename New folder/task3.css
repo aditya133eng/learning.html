@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;/* for row*/
+    align-items: center; /* for colomn*/
+    background-color: blue;
+
+}
+
+.container div{
+
+}

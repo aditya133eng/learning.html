@@ -1,0 +1,12 @@
+.container{
+    background-color: yellow;
+    display: flex;
+    justify-content: center; /*space-between,space-around,space-evenly start */
+
+}
+.container div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 3px solid black;
+}
